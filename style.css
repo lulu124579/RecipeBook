@@ -1,10 +1,10 @@
 :root {
     /* color variable setup */
-    --green: #acc8ae;
-    --blue: #172774;
+    --green: #ddfff7;
+    --blue: #93e1d8;
     --pink: #ff0075;
     --white:#f2f2f2;
-	--grey: #f2dfd9;
+	--grey: #36494e;
     
 }
 * {
@@ -14,7 +14,7 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	background: var(--grey);
+	background: var(--green);
 	overflow-x:hidden;
 	margin:0;
 }
@@ -22,5 +22,5 @@ header {
 	padding: 40px;
 	font-size: 50px;
 	text-align: center;
-	background: var(--green);
+	background: var(--blue);
 }
