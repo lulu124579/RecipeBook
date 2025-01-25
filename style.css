@@ -12,8 +12,6 @@
 	padding: 0;
 }
 body {
-	height: 100%;
-	width: 100%;
 	background: var(--green);
 	overflow:hidden;
 	margin:0;
@@ -25,22 +23,25 @@ header {
 	background: var(--blue);
 }
 #search {
-	margin-top: 10px;
 	padding: 8px;
 }
 #search .input {
+	margin-top: 10px;
 	border: 1px solid black;
 	float: left;
 }
 .links {
 	list-style-type: none;
-	margin-top: 1rem;
+	margin-top: 3rem;
 }
 .links li a {
-	margin-block: 0.5rem;
+	margin-block: 1rem;
 	padding: 1rem;
 	text-align: center;
 	display: block;
 	background-color: var(--blue);
 	color: #222;
+}
+.links li a:hover:not(.header) {
+	transform: scale(1.05);
 }

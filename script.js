@@ -1,6 +1,6 @@
 function performSearch() {
     var input, filter, ul, li, a, i, txtValue;
-    input = document.querySelector("#search");
+    input = document.querySelector(".input");
     filter = input.value.toUpperCase();
     ul = document.querySelector(".links");
     li = ul.getElementsByTagName("li");
