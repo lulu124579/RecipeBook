@@ -1,6 +1,6 @@
 :root {
     /* color variable setup */
-    --green: #77d970;
+    --green: #a3cfa7;
     --blue: #172774;
     --pink: #ff0075;
     --white:#f2f2f2;
@@ -13,7 +13,7 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	background: var(--white);
+	background: var(--green);
 	overflow-x:hidden;
 	margin:0;
 }
