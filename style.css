@@ -4,6 +4,7 @@
     --blue: #172774;
     --pink: #ff0075;
     --white:#f2f2f2;
+	--grey: #c6ccc6;
     
 }
 * {
@@ -18,6 +19,8 @@ html, body {
 	margin:0;
 }
 header {
+	padding: 40px;
 	font-size: 50px;
 	text-align: center;
+	background: grey;
 }
