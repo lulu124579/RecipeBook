@@ -1,3 +1,11 @@
+:root {
+    /* color variable setup */
+    --green: #77d970;
+    --blue: #172774;
+    --pink: #ff0075;
+    --white:#f2f2f2;
+    
+}
 * {
 	margin: 0;
 	padding: 0;
