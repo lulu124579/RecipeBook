@@ -11,11 +11,11 @@
 	margin: 0;
 	padding: 0;
 }
-html, body {
+body {
 	height: 100%;
 	width: 100%;
 	background: var(--green);
-	overflow-x:hidden;
+	overflow:hidden;
 	margin:0;
 }
 header {
@@ -28,20 +28,18 @@ header {
 	margin-top: 10px;
 	padding: 8px;
 }
-#search input[type=text] {
+#search .input {
 	border: 1px solid black;
 	float: left;
 }
-#search button {
-	background: #ddd;
-	float: left;
-	cursor: pointer;
-	margin-top: none;
-	margin-left: 5px;
-	font-size: 10px;
-	padding: 1.8px 4px;
-	border: 1px solid black;
+.results {
+	margin-top: 20px;
+	text-align: left;
+	font-size: 18px;
+	max-width: 600px;
+	margin: auto;
 }
-#search button:hover {
-	background: #ccc;
+.result-item {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
 }

@@ -17,14 +17,12 @@
     </div>
     <div id="search">
       
-      <form action="action_page.php">
-      
-        <input type="text" placeholder="Search for a recipe..." name="search bar">
-        <button type="submit"><i class="button searchbutton">Search</i></button>
+      <input type="text" placeholder="Search for a recipe..." class="input" onkeyup="performSearch()">
+      <button type="submit" class="button"><i class="fa fa-search">Search</i></button>
 
-      </form>
     </div>
-    
+    <div id="search-results" class="results"></div>
+    <script src="script.js"></script>
 
     
     
