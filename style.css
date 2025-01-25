@@ -32,14 +32,15 @@ header {
 	border: 1px solid black;
 	float: left;
 }
-.results {
-	margin-top: 20px;
-	text-align: left;
-	font-size: 18px;
-	max-width: 600px;
-	margin: auto;
+.links {
+	list-style-type: none;
+	margin-top: 1rem;
 }
-.result-item {
-	padding: 10px;
-	border-bottom: 1px solid #ccc;
+.links li a {
+	margin-block: 0.5rem;
+	padding: 1rem;
+	text-align: center;
+	display: block;
+	background-color: var(--blue);
+	color: #222;
 }

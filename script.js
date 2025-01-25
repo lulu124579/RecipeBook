@@ -1,22 +1,16 @@
-const sampleData = [
-    "Apple"
-];
-
 function performSearch() {
-    const input = document.getElementById('input').ariaValueMax.toLowerCase();
-    const results = document.getElementById('results');
-    results.innerHTML = '';
-
-    const filtered = sampleData.filter(item => item.toLowerCase().includes(input));
-
-    filtered.forEach(item => {
-        const resultItem = document.createElement('div');
-        resultItem.classList.add('result-item');
-        resultItem.textContent = item;
-        searchResults.appendChild(resultItem);
-    });
-
-    if (filtered.length === 0 && input !== '') {
-        results.innerHTML = '<p>No results found</p>';
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.querySelector("#search");
+    filter = input.value.toUpperCase();
+    ul = document.querySelector(".links");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
     }
 }
