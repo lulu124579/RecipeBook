@@ -8,7 +8,7 @@ def remove_punctuation(word):
     return new_word
 def remove_words(word):
     word = word.replace(' lb ', '')
-  
+    word = word.replace(' to','')
     word = word.replace(' Tbsp ','')
     word = word.replace(' tsp ','')
     word = word.replace(' pound ','')
@@ -40,11 +40,12 @@ cols = ['Title','Ingredients']
 dataTitle = df['Title']
 dataTitle = np.array(dataTitle)
 dataIngredients = np.array(df['Cleaned_Ingredients'])
-for item in dataIngredients:
+for i in range(len(dataIngredients)):
     #print(item)
     print('\n')
-    r = remove_punctuation(item)
+    r = remove_punctuation(dataIngredients[i])
     result = remove_words(r)
+    print("Recipe": dataTitle[i])
     print(result)
     print('\n')
 #print(data)
