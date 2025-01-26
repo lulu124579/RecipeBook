@@ -13,7 +13,7 @@
 }
 body {
 	background: var(--green);
-	overflow:hidden;
+	overflow-x:hidden;
 	margin:0;
 }
 header {
@@ -45,4 +45,25 @@ header {
 }
 .links li a:hover:not(.header) {
 	transform: scale(1.05);
+}
+#ingredients, #steps {
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.ingredients {
+	margin-left: 20px;
+	margin-top: 5px;
+	list-style-type: circle;
+	font-size: 16px;
+}
+.steps {
+	margin-left: 20px;
+	margin-top: 5 px;
+	font-size: 16px;
+}
+
+img {
+	width: 30%;
+	height: 30%;
 }
