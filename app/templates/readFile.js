@@ -5,9 +5,9 @@ import data from './Recipe.json' with { type: 'json' };
 const obj = data;
 
 //const para = document.createElement("p");
-for (let i = 0; i < 31; i++) {
+for (let i = 31; i < 51; i++) {
     
-    console.log(obj[i]["Title"])
+    console.log(obj[i]["Image_Name"])
    
   }
 // accessing the data
