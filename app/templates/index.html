@@ -9,12 +9,7 @@
 
   <body>
     
-    <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-    </div>
+    
 
     <script src="script.js"></script>
     <div id = "Recipes">
@@ -23,8 +18,9 @@
       </header>
     </div>
     <section id="search">
-      
-      <input type="search" placeholder="Search for a recipe..." class="input" onkeyup="performSearch()">
+      <div class = "searchBar">
+        <input type="search" placeholder="Search for a recipe..." class="input" onkeyup="performSearch()">
+      </div>
       <!-- Each thing is part of the title for searching-->
       <ul class="links" id = "Food">
         <li><a href='https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/' target="_blank""><u><b>Pancakes</b></u><br><img src="https://kirbiecravings.com/wp-content/uploads/2017/09/flourless-banana-pancakes-71.jpg"><br>flour, sugar, salt, baking powder, milk, egg, butter, oil, maple syrup</a></li>
