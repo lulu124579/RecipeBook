@@ -1,0 +1,112 @@
+:root {
+    /* color variable setup */
+    --green: #b5eab9;
+    --blue: #93e1d8;
+    --pink: #ff0075;
+    --white:#f2f2f2;
+	--grey: #36494e;
+    
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: var(--green);
+	overflow-x:hidden;
+	margin:0;
+}
+header {
+	padding: 40px;
+	font-size: 50px;
+	text-align: center;
+	background: var(--blue);
+}
+#search {
+	padding: 8px;
+}
+#search .input {
+	margin-top: 10px;
+	border: 1px solid black;
+	float: left;
+}
+.links {
+	list-style-type: none;
+	margin-top: 3rem;
+}
+.links li a {
+	margin-block: 1rem;
+	padding: 1rem;
+	text-align: center;
+	display: block;
+	background-color: var(--blue);
+	color: #222;
+	text-decoration: none;
+}
+.links li a:hover:not(.header) {
+	transform: scale(1.05);
+}
+#ingredients, #steps {
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.ingredients {
+	margin-left: 20px;
+	margin-top: 5px;
+	list-style-type: circle;
+	font-size: 16px;
+}
+.steps {
+	margin-left: 20px;
+	margin-top: 5 px;
+	font-size: 16px;
+}
+
+img {
+	width: 30%;
+	height: 30%;
+}
+.topnav{
+	background-color: var(--green);
+	  
+}
+.topnav a{
+	float:left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 17px;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+.topnav a.active {
+	background-color: var(--green);
+	
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+
+table th {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: left;
+    background-color: dodgerblue;
+    color: white;
+}
