@@ -24,6 +24,10 @@ def remove_words(word):
     word = word.replace(' teaspoons ','')
     word = word.replace(' tablespoons ','')
     word = word.replace(' cups ','')
+    word = word.replace(' quart ','')
+    word = word.replace(' a ','')
+    word = word.replace(' s ','')
+
     
     
 
@@ -44,10 +48,11 @@ for i in range(len(dataIngredients)):
     print('\n')
     r = remove_punctuation(dataIngredients[i])
     result = remove_words(r)
-    print("Recipe": dataTitle[i])
+    print("Recipe " + str(dataTitle[i]))
     print(result)
     print('\n')
 #print(data)
+
 
 '''
 
