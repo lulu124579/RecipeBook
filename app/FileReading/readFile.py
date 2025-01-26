@@ -33,8 +33,7 @@ def remove_words(word):
 df = pd.read_csv("recipes.csv")
 
 print(df.columns)
-df = df.drop('Ingredients',1)
-df = df.drop('Instructions',1)
+
 cols = ['Title','Ingredients']
 #print(df[cols])
 dataTitle = df['Title']
