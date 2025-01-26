@@ -1,4 +1,3 @@
-import Papa from 'papaparse';
 function performSearch() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.querySelector(".input");
