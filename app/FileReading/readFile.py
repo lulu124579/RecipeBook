@@ -12,7 +12,7 @@ def remove_words(word):
     word = word.replace(' Tbsp ','')
     word = word.replace(' tsp ','')
     word = word.replace(' pound ','')
-    word = word.replace('cup ','')
+    word = word.replace(' cup ','')
     word = word.replace(' teaspoon ','')
     word = word.replace(' oz ','')
     word = word.replace(' ounces ','')
